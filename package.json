@@ -8,7 +8,8 @@
     "build": "npm run clean && npm run build:esm && npm run build:cjs",
     "build:esm": "tsc -p ./tsconfig.esm.json && mv lib/esm/index.js lib/esm/index.mjs",
     "build:cjs": "tsc -p ./tsconfig.cjs.json",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "test": "mocha"
   },
   "keywords": [
     "mysql",
@@ -36,9 +37,13 @@
   "license": "ISC",
   "devDependencies": {
     "@types/chai": "^2.0.4",
+    "@types/expect": "^24.3.0",
     "@types/mocha": "^10.0.1",
+    "@types/node": "^18.11.17",
     "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
     "mocha": "^10.2.0",
+    "sinon-chai": "^3.7.0",
     "ts-node": "^10.9.1",
     "typescipt": "^1.0.0"
   }
