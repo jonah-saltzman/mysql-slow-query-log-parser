@@ -1,0 +1,17 @@
+{
+  "name": "mysql-slow-query-log-parser",
+  "version": "0.0.1",
+  "description": "MySQL Slow Query Log parser for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mysql",
+    "slow",
+    "query",
+    "log"
+  ],
+  "author": "Jonah Saltzman",
+  "license": "ISC"
+}
