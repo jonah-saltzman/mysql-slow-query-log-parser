@@ -1,6 +1,8 @@
 import * as fs from 'fs'
 import { LogFileParser, LogFileEntry } from './classes'
 
+export {LogFileParser, LogFileEntry} from './classes'
+
 export async function parseStream(readable: fs.ReadStream): Promise<LogFileEntry[]> {
     return new Promise((resolve, reject) => {
         let chunks = 0
@@ -13,15 +15,11 @@ export async function parseStream(readable: fs.ReadStream): Promise<LogFileEntry
             let lines = strChunk.toString().split('\n')
             if (!last) {
                 if (partialLine) {
-                    // console.log(`found existing partial line:\n\t${partialLine}`)
-                    // console.log(`concatenating with\n\t${lines[0]}`)
                     lines[0] = partialLine.concat(lines[0])
-                    // console.log(`concatenated: ${lines[0]}`)
                     partialLine = undefined
                 }
                 if (!strChunk.endsWith('\n')) {
                     partialLine = lines.pop()
-                    // console.log(`partial line:\n\t${partialLine}`)
                 }
             }
             for (const line of lines) {
@@ -30,7 +28,6 @@ export async function parseStream(readable: fs.ReadStream): Promise<LogFileEntry
         }
 
         readable.on('data', (chunk) => {
-            // console.log(`received chunk[${chunks}] len=${chunk.length}`)
             if (prevChunk) {
                 processChunk(prevChunk, false)
             }

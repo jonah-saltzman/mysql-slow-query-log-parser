@@ -35,7 +35,6 @@ export class LogFileParser {
 
     public parseLine(line: string): void {
         this.lines++
-        // console.log(line)
         const tokens = line.split(/ +/g)
         if (line === '' || line === '\n' || tokens.length < 2)
             return
