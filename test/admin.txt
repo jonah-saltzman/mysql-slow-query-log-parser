@@ -2,999 +2,999 @@
 # User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
 # Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
 SET timestamp=1671475420;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:41.607569Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000565  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475421;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:42.017149Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000446  Lock_time: 0.000103 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475422;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:43.600547Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000511  Lock_time: 0.000086 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475423;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:44.010501Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000495  Lock_time: 0.000083 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475424;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:45.042948Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000434  Lock_time: 0.000067 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475425;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:45.614666Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000543  Lock_time: 0.000099 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475425;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:46.024322Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000382  Lock_time: 0.000079 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475426;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:47.635128Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000583  Lock_time: 0.000106 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475427;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:48.050654Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000401  Lock_time: 0.000079 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475428;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:49.593281Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000529  Lock_time: 0.000119 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475429;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:50.054080Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000456  Lock_time: 0.000101 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475430;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:51.595333Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000546  Lock_time: 0.000082 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475431;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:52.069948Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000452  Lock_time: 0.000080 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475432;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:53.605755Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000492  Lock_time: 0.000080 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475433;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:54.012849Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000467  Lock_time: 0.000096 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475434;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:55.666081Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000573  Lock_time: 0.000081 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475435;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:55.992881Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000691  Lock_time: 0.000141 Rows_sent: 4  Rows_examined: 4
-SET timestamp=1671475435;
-SELECT VARIABLE_NAME, VARIABLE_VALUE FROM INFORMATION_SCHEMA.GLOBAL_STATUS WHERE VARIABLE_NAME IN ('QCACHE_HITS', 'COM_SELECT', 'INNODB_BUFFER_POOL_READS', 'INNODB_BUFFER_POOL_READ_REQUESTS');
-# Time: 2022-12-19T18:43:56.076592Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000704  Lock_time: 0.000190 Rows_sent: 49  Rows_examined: 49
-SET timestamp=1671475436;
-SELECT VARIABLE_NAME, VARIABLE_VALUE FROM INFORMATION_SCHEMA.GLOBAL_STATUS WHERE VARIABLE_NAME IN ( 'COM_DROP_TRIGGER', 'COM_DROP_TABLE', 'AURORADB_SELECT_STMT_DURATION', 'COM_SELECT', 'AURORA_LOCKMGR_MEMORY_USED', 'COM_CREATE_UDF', 'COM_DROP_FUNCTION', 'COM_ALTER_EVENT', 'COM_CREATE_INDEX', 'COM_CREATE_PROCEDURE', 'HANDLER_UPDATE', 'COM_ALTER_TABLE', 'HANDLER_WRITE', 'COM_DELETE_MULTI', 'AURORADB_DELETE_STMT_DURATION', 'COM_TRUNCATE', 'COM_ALTER_SERVER', 'COM_DROP_PROCEDURE', 'COM_CREATE_TABLE', 'COM_CREATE_DB', 'COUNT|COM_INSERT|COM_INSERT_SELECT', 'HANDLER_DELETE', 'QCACHE_HITS', 'COM_CREATE_EVENT', 'COM_DELETE', 'COM_CREATE_FUNCTION', 'COM_ALTER_SYSTEM', 'AURORADB_COMMIT_LATENCY', 'COM_UPDATE_MULTI', 'COUNT|COM_UPDATE|COM_UPDATE_MULTI', 'AURORADB_INSERT_STMT_DURATION', 'COM_ALTER_TABLESPACE', 'COM_DROP_DB', 'COM_DROP_SERVER', 'COM_INSERT', 'AURORADB_DDL_STMT_DURATION', 'AURORA_ROLLBACK_SEGMENT_HISTORY_LENGTH', 'AURORADB_UPDATE_STMT_DURATION', 'COM_ALTER_DB', 'COM_ALTER_PROCEDURE', 'COM_ALTER_DB_UPGRADE', 'COM_INSERT_SELECT', 'COM_CREATE_SERVER', 'COM_CREATE_TRIGGER', 'COUNT|COM_DELETE|COM_DELETE_MULTI|COM_TRUNCATE', 'AURORADB_COMMITS', 'COM_DROP_INDEX', 'COM_UPDATE', 'COM_ALTER_FUNCTION', 'COM_CREATE_VIEW', 'COM_DROP_EVENT', 'COM_DROP_VIEW');
-# Time: 2022-12-19T18:43:56.077118Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000445  Lock_time: 0.000061 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475436;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:56.095478Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000429  Lock_time: 0.000097 Rows_sent: 3  Rows_examined: 3
-SET timestamp=1671475436;
-SELECT VARIABLE_NAME, VARIABLE_VALUE FROM INFORMATION_SCHEMA.GLOBAL_STATUS WHERE VARIABLE_NAME IN ( 'ABORTED_CONNECTS', 'QUERIES', 'THREADS_CONNECTED');
-# Time: 2022-12-19T18:43:56.181618Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000234  Lock_time: 0.000122 Rows_sent: 1  Rows_examined: 1
-SET timestamp=1671475436;
-SELECT count(*) from information_schema.TABLES WHERE TABLE_SCHEMA = 'information_schema' AND TABLE_NAME = 'RDS_METRICS_META';
-# Time: 2022-12-19T18:43:56.190981Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000456  Lock_time: 0.000111 Rows_sent: 44  Rows_examined: 132
-SET timestamp=1671475436;
-select name, count_since_reset, visibility from information_schema.rds_metrics_counter inner join information_schema.rds_metrics_meta on rds_metrics_meta.id = rds_metrics_counter.metric_id;
-# Time: 2022-12-19T18:43:56.199000Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.001025  Lock_time: 0.000109 Rows_sent: 70  Rows_examined: 158
-SET timestamp=1671475436;
-select name, value, visibility from information_schema.rds_metrics_gauge inner join information_schema.rds_metrics_meta on rds_metrics_meta.id = rds_metrics_gauge.metric_id;
-# Time: 2022-12-19T18:43:56.282975Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000675  Lock_time: 0.000160 Rows_sent: 3  Rows_examined: 235
-SET timestamp=1671475436;
-SELECT NAME, COUNT FROM INFORMATION_SCHEMA.INNODB_METRICS WHERE NAME IN ('LOCK_DEADLOCKS', 'LOCK_ROW_LOCK_CURRENT_WAITS', 'TRX_ACTIVE_TRANSACTIONS');
-# Time: 2022-12-19T18:43:56.292856Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000553  Lock_time: 0.000128 Rows_sent: 1  Rows_examined: 2
-SET timestamp=1671475436;
-SELECT MIN(REPLICA_LAG_IN_MILLISECONDS), MAX(REPLICA_LAG_IN_MILLISECONDS) FROM INFORMATION_SCHEMA.REPLICA_HOST_STATUS WHERE SERVER_ID != 'beta-master';
-# Time: 2022-12-19T18:43:57.592732Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000557  Lock_time: 0.000074 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475437;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:58.011357Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000462  Lock_time: 0.000092 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475438;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:43:59.601516Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000544  Lock_time: 0.000102 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475439;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:00.019049Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000270  Lock_time: 0.000152 Rows_sent: 1  Rows_examined: 1
-SET timestamp=1671475440;
-SELECT count(*) from mysql.rds_history WHERE action = 'disable set master' ORDER BY action_timestamp LIMIT 1;
-# Time: 2022-12-19T18:44:00.019680Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000554  Lock_time: 0.000071 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475440;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:00.039093Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000212  Lock_time: 0.000118 Rows_sent: 1  Rows_examined: 1
-SET timestamp=1671475440;
-SELECT count(*) from mysql.rds_replication_status WHERE master_host IS NOT NULL and master_port IS NOT NULL ORDER BY action_timestamp LIMIT 1;
-# Time: 2022-12-19T18:44:00.039734Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000558  Lock_time: 0.000073 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475440;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:01.619542Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000557  Lock_time: 0.000103 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475441;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:02.026654Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000452  Lock_time: 0.000080 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475442;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:02.590605Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000570  Lock_time: 0.000078 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475442;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:03.609635Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000576  Lock_time: 0.000104 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475443;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:04.032403Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000456  Lock_time: 0.000080 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475444;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:05.620742Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000531  Lock_time: 0.000078 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475445;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:06.027784Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000455  Lock_time: 0.000081 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475446;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:07.627079Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000565  Lock_time: 0.000104 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475447;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:08.034163Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000492  Lock_time: 0.000101 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475448;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:09.617485Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000485  Lock_time: 0.000081 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475449;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:10.024735Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000484  Lock_time: 0.000104 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475450;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:11.628075Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000534  Lock_time: 0.000083 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475451;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:12.035737Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000463  Lock_time: 0.000089 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475452;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:13.603646Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000426  Lock_time: 0.000096 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475453;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:14.073658Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000570  Lock_time: 0.000099 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475454;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:15.048348Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000613  Lock_time: 0.000087 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475455;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:15.599337Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000560  Lock_time: 0.000083 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475455;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:16.052959Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000465  Lock_time: 0.000100 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475456;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:17.603142Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000560  Lock_time: 0.000107 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475457;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:18.018496Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000495  Lock_time: 0.000097 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475458;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:19.591945Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000470  Lock_time: 0.000089 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475459;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:20.014795Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000571  Lock_time: 0.000098 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475460;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:21.614902Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000451  Lock_time: 0.000079 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475461;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:22.022062Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000578  Lock_time: 0.000112 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475462;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:23.659426Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000573  Lock_time: 0.000102 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475463;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:24.066586Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000444  Lock_time: 0.000081 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475464;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:25.602320Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000429  Lock_time: 0.000079 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475465;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:26.024123Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000520  Lock_time: 0.000080 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475466;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:27.591411Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000493  Lock_time: 0.000100 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475467;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:28.014244Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000530  Lock_time: 0.000081 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475468;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:29.616024Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000428  Lock_time: 0.000080 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475469;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:30.038787Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000513  Lock_time: 0.000080 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475470;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:30.050512Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000465  Lock_time: 0.000085 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475470;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:31.608069Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000434  Lock_time: 0.000079 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475471;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:32.017622Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000513  Lock_time: 0.000078 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475472;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:33.602360Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000443  Lock_time: 0.000076 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475473;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:34.024183Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000526  Lock_time: 0.000083 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475474;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:35.614227Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000440  Lock_time: 0.000081 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475475;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:36.020800Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000551  Lock_time: 0.000096 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475476;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:37.633566Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000501  Lock_time: 0.000100 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475477;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:38.039709Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000525  Lock_time: 0.000078 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475478;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:39.625981Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000489  Lock_time: 0.000101 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475479;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:40.032992Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000593  Lock_time: 0.000102 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475480;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:41.614432Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000457  Lock_time: 0.000098 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475481;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:42.024780Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000539  Lock_time: 0.000098 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475482;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:43.602208Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000378  Lock_time: 0.000076 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475483;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:44.023950Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000534  Lock_time: 0.000080 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475484;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:45.053449Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000651  Lock_time: 0.000081 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475485;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:45.614497Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000496  Lock_time: 0.000077 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475485;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:46.024072Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000421  Lock_time: 0.000079 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475486;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:47.617330Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000430  Lock_time: 0.000075 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475487;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:48.039078Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000500  Lock_time: 0.000077 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475488;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:49.600562Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000440  Lock_time: 0.000096 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475489;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:50.046188Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000534  Lock_time: 0.000080 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475490;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:51.612084Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000454  Lock_time: 0.000099 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475491;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:52.019022Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000495  Lock_time: 0.000077 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475492;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:53.589547Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000427  Lock_time: 0.000080 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475493;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:54.012860Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000534  Lock_time: 0.000093 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475494;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:55.620690Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000419  Lock_time: 0.000075 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475495;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:56.027687Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000692  Lock_time: 0.000154 Rows_sent: 4  Rows_examined: 4
-SET timestamp=1671475496;
-SELECT VARIABLE_NAME, VARIABLE_VALUE FROM INFORMATION_SCHEMA.GLOBAL_STATUS WHERE VARIABLE_NAME IN ('QCACHE_HITS', 'COM_SELECT', 'INNODB_BUFFER_POOL_READS', 'INNODB_BUFFER_POOL_READ_REQUESTS');
-# Time: 2022-12-19T18:44:56.028341Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000564  Lock_time: 0.000065 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475496;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:56.059804Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000654  Lock_time: 0.000155 Rows_sent: 49  Rows_examined: 49
-SET timestamp=1671475496;
-SELECT VARIABLE_NAME, VARIABLE_VALUE FROM INFORMATION_SCHEMA.GLOBAL_STATUS WHERE VARIABLE_NAME IN ( 'COM_DROP_TRIGGER', 'COM_DROP_TABLE', 'AURORADB_SELECT_STMT_DURATION', 'COM_SELECT', 'AURORA_LOCKMGR_MEMORY_USED', 'COM_CREATE_UDF', 'COM_DROP_FUNCTION', 'COM_ALTER_EVENT', 'COM_CREATE_INDEX', 'COM_CREATE_PROCEDURE', 'HANDLER_UPDATE', 'COM_ALTER_TABLE', 'HANDLER_WRITE', 'COM_DELETE_MULTI', 'AURORADB_DELETE_STMT_DURATION', 'COM_TRUNCATE', 'COM_ALTER_SERVER', 'COM_DROP_PROCEDURE', 'COM_CREATE_TABLE', 'COM_CREATE_DB', 'COUNT|COM_INSERT|COM_INSERT_SELECT', 'HANDLER_DELETE', 'QCACHE_HITS', 'COM_CREATE_EVENT', 'COM_DELETE', 'COM_CREATE_FUNCTION', 'COM_ALTER_SYSTEM', 'AURORADB_COMMIT_LATENCY', 'COM_UPDATE_MULTI', 'COUNT|COM_UPDATE|COM_UPDATE_MULTI', 'AURORADB_INSERT_STMT_DURATION', 'COM_ALTER_TABLESPACE', 'COM_DROP_DB', 'COM_DROP_SERVER', 'COM_INSERT', 'AURORADB_DDL_STMT_DURATION', 'AURORA_ROLLBACK_SEGMENT_HISTORY_LENGTH', 'AURORADB_UPDATE_STMT_DURATION', 'COM_ALTER_DB', 'COM_ALTER_PROCEDURE', 'COM_ALTER_DB_UPGRADE', 'COM_INSERT_SELECT', 'COM_CREATE_SERVER', 'COM_CREATE_TRIGGER', 'COUNT|COM_DELETE|COM_DELETE_MULTI|COM_TRUNCATE', 'AURORADB_COMMITS', 'COM_DROP_INDEX', 'COM_UPDATE', 'COM_ALTER_FUNCTION', 'COM_CREATE_VIEW', 'COM_DROP_EVENT', 'COM_DROP_VIEW');
-# Time: 2022-12-19T18:44:56.088706Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000443  Lock_time: 0.000103 Rows_sent: 3  Rows_examined: 3
-SET timestamp=1671475496;
-SELECT VARIABLE_NAME, VARIABLE_VALUE FROM INFORMATION_SCHEMA.GLOBAL_STATUS WHERE VARIABLE_NAME IN ( 'ABORTED_CONNECTS', 'QUERIES', 'THREADS_CONNECTED');
-# Time: 2022-12-19T18:44:56.131820Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000219  Lock_time: 0.000115 Rows_sent: 1  Rows_examined: 1
-SET timestamp=1671475496;
-SELECT count(*) from information_schema.TABLES WHERE TABLE_SCHEMA = 'information_schema' AND TABLE_NAME = 'RDS_METRICS_META';
-# Time: 2022-12-19T18:44:56.164529Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000449  Lock_time: 0.000112 Rows_sent: 44  Rows_examined: 132
-SET timestamp=1671475496;
-select name, count_since_reset, visibility from information_schema.rds_metrics_counter inner join information_schema.rds_metrics_meta on rds_metrics_meta.id = rds_metrics_counter.metric_id;
-# Time: 2022-12-19T18:44:56.175237Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000898  Lock_time: 0.000093 Rows_sent: 70  Rows_examined: 158
-SET timestamp=1671475496;
-select name, value, visibility from information_schema.rds_metrics_gauge inner join information_schema.rds_metrics_meta on rds_metrics_meta.id = rds_metrics_gauge.metric_id;
-# Time: 2022-12-19T18:44:56.226451Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000478  Lock_time: 0.000125 Rows_sent: 3  Rows_examined: 235
-SET timestamp=1671475496;
-SELECT NAME, COUNT FROM INFORMATION_SCHEMA.INNODB_METRICS WHERE NAME IN ('LOCK_DEADLOCKS', 'LOCK_ROW_LOCK_CURRENT_WAITS', 'TRX_ACTIVE_TRANSACTIONS');
-# Time: 2022-12-19T18:44:56.236600Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000477  Lock_time: 0.000113 Rows_sent: 1  Rows_examined: 2
-SET timestamp=1671475496;
-SELECT MIN(REPLICA_LAG_IN_MILLISECONDS), MAX(REPLICA_LAG_IN_MILLISECONDS) FROM INFORMATION_SCHEMA.REPLICA_HOST_STATUS WHERE SERVER_ID != 'beta-master';
-# Time: 2022-12-19T18:44:57.610160Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000469  Lock_time: 0.000074 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475497;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:58.032030Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000499  Lock_time: 0.000074 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475498;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:44:59.594926Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000418  Lock_time: 0.000078 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475499;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:00.028629Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000281  Lock_time: 0.000149 Rows_sent: 1  Rows_examined: 1
-SET timestamp=1671475500;
-SELECT count(*) from mysql.rds_history WHERE action = 'disable set master' ORDER BY action_timestamp LIMIT 1;
-# Time: 2022-12-19T18:45:00.029781Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.001073  Lock_time: 0.000072 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475500;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:00.043254Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000199  Lock_time: 0.000100 Rows_sent: 1  Rows_examined: 1
-SET timestamp=1671475500;
-SELECT count(*) from mysql.rds_replication_status WHERE master_host IS NOT NULL and master_port IS NOT NULL ORDER BY action_timestamp LIMIT 1;
-# Time: 2022-12-19T18:45:00.043888Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000571  Lock_time: 0.000069 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475500;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:01.606223Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000466  Lock_time: 0.000102 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475501;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:02.015914Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000513  Lock_time: 0.000078 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475502;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:02.636202Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000530  Lock_time: 0.000081 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475502;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:03.655053Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000421  Lock_time: 0.000075 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475503;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:04.042666Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000470  Lock_time: 0.000074 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475504;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:05.612746Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000410  Lock_time: 0.000093 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475505;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:06.020100Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000495  Lock_time: 0.000074 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475506;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:07.014289Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000465  Lock_time: 0.000124 Rows_sent: 1  Rows_examined: 1
-SET timestamp=1671475507;
-SELECT variable_name, variable_value from information_schema.GLOBAL_STATUS where variable_name in ('AURORA_RESERVED_MEM_EXCEEDED_INCIDENTS');
-# Time: 2022-12-19T18:45:07.639574Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000488  Lock_time: 0.000103 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475507;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:08.030890Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000489  Lock_time: 0.000077 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475508;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:09.601263Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000385  Lock_time: 0.000073 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475509;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:10.007583Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000478  Lock_time: 0.000074 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475510;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:11.628103Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000415  Lock_time: 0.000077 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475511;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:12.024567Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000475  Lock_time: 0.000076 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475512;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:13.598271Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000377  Lock_time: 0.000073 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475513;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:14.008149Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000476  Lock_time: 0.000072 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475514;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:15.059943Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000579  Lock_time: 0.000090 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475515;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:15.631091Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000496  Lock_time: 0.000092 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475515;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:16.031939Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000384  Lock_time: 0.000078 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475516;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:17.614473Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000409  Lock_time: 0.000073 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475517;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:18.024274Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000462  Lock_time: 0.000076 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475518;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:19.601446Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000448  Lock_time: 0.000092 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475519;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:20.008748Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000517  Lock_time: 0.000090 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475520;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:21.598089Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000410  Lock_time: 0.000076 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475521;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:22.020575Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000438  Lock_time: 0.000076 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475522;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:23.601755Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000426  Lock_time: 0.000094 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475523;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:24.008111Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000530  Lock_time: 0.000086 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475524;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:25.011185Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39123
-# Query_time: 0.000185  Lock_time: 0.000108 Rows_sent: 1  Rows_examined: 1
-SET timestamp=1671475525;
-SELECT SQL_NO_CACHE NAME, VALUE FROM mysql.rds_configuration;
-# Time: 2022-12-19T18:45:25.620711Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000397  Lock_time: 0.000075 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475525;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:26.019011Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000489  Lock_time: 0.000078 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475526;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:27.601079Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000472  Lock_time: 0.000090 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475527;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:28.011066Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000519  Lock_time: 0.000076 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475528;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:29.612624Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000399  Lock_time: 0.000075 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475529;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:30.019296Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000500  Lock_time: 0.000075 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475530;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:30.049325Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000441  Lock_time: 0.000088 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475530;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:31.599096Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000393  Lock_time: 0.000077 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475531;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:32.009073Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000542  Lock_time: 0.000077 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475532;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:33.628645Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000476  Lock_time: 0.000104 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475533;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:34.035235Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000518  Lock_time: 0.000093 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475534;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:35.615512Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000411  Lock_time: 0.000076 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475535;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:36.056343Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000523  Lock_time: 0.000075 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475536;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:37.592162Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000427  Lock_time: 0.000077 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475537;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:38.013809Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000482  Lock_time: 0.000078 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475538;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:39.607502Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000425  Lock_time: 0.000076 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475539;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:40.014203Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000550  Lock_time: 0.000081 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475540;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:41.624170Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000446  Lock_time: 0.000079 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475541;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:42.025114Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000534  Lock_time: 0.000077 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475542;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:43.620217Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000386  Lock_time: 0.000075 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475543;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:44.026724Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000479  Lock_time: 0.000076 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475544;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:45.048383Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000499  Lock_time: 0.000086 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475545;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:45.618854Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000445  Lock_time: 0.000074 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475545;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:46.028721Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000413  Lock_time: 0.000074 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475546;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:47.635856Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000499  Lock_time: 0.000103 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475547;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:48.042482Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000476  Lock_time: 0.000076 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475548;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:49.589972Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000419  Lock_time: 0.000093 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475549;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:50.011582Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000486  Lock_time: 0.000075 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475550;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:51.620135Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000395  Lock_time: 0.000077 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475551;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:52.027152Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000451  Lock_time: 0.000074 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475552;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:53.643532Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000369  Lock_time: 0.000073 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475553;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:54.038071Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000459  Lock_time: 0.000075 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475554;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:55.601296Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000428  Lock_time: 0.000096 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475555;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:56.007544Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000488  Lock_time: 0.000123 Rows_sent: 4  Rows_examined: 4
-SET timestamp=1671475556;
-SELECT VARIABLE_NAME, VARIABLE_VALUE FROM INFORMATION_SCHEMA.GLOBAL_STATUS WHERE VARIABLE_NAME IN ('QCACHE_HITS', 'COM_SELECT', 'INNODB_BUFFER_POOL_READS', 'INNODB_BUFFER_POOL_READ_REQUESTS');
-# Time: 2022-12-19T18:45:56.008176Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000551  Lock_time: 0.000072 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475556;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:56.030997Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000596  Lock_time: 0.000125 Rows_sent: 49  Rows_examined: 49
-SET timestamp=1671475556;
-SELECT VARIABLE_NAME, VARIABLE_VALUE FROM INFORMATION_SCHEMA.GLOBAL_STATUS WHERE VARIABLE_NAME IN ( 'COM_DROP_TRIGGER', 'COM_DROP_TABLE', 'AURORADB_SELECT_STMT_DURATION', 'COM_SELECT', 'AURORA_LOCKMGR_MEMORY_USED', 'COM_CREATE_UDF', 'COM_DROP_FUNCTION', 'COM_ALTER_EVENT', 'COM_CREATE_INDEX', 'COM_CREATE_PROCEDURE', 'HANDLER_UPDATE', 'COM_ALTER_TABLE', 'HANDLER_WRITE', 'COM_DELETE_MULTI', 'AURORADB_DELETE_STMT_DURATION', 'COM_TRUNCATE', 'COM_ALTER_SERVER', 'COM_DROP_PROCEDURE', 'COM_CREATE_TABLE', 'COM_CREATE_DB', 'COUNT|COM_INSERT|COM_INSERT_SELECT', 'HANDLER_DELETE', 'QCACHE_HITS', 'COM_CREATE_EVENT', 'COM_DELETE', 'COM_CREATE_FUNCTION', 'COM_ALTER_SYSTEM', 'AURORADB_COMMIT_LATENCY', 'COM_UPDATE_MULTI', 'COUNT|COM_UPDATE|COM_UPDATE_MULTI', 'AURORADB_INSERT_STMT_DURATION', 'COM_ALTER_TABLESPACE', 'COM_DROP_DB', 'COM_DROP_SERVER', 'COM_INSERT', 'AURORADB_DDL_STMT_DURATION', 'AURORA_ROLLBACK_SEGMENT_HISTORY_LENGTH', 'AURORADB_UPDATE_STMT_DURATION', 'COM_ALTER_DB', 'COM_ALTER_PROCEDURE', 'COM_ALTER_DB_UPGRADE', 'COM_INSERT_SELECT', 'COM_CREATE_SERVER', 'COM_CREATE_TRIGGER', 'COUNT|COM_DELETE|COM_DELETE_MULTI|COM_TRUNCATE', 'AURORADB_COMMITS', 'COM_DROP_INDEX', 'COM_UPDATE', 'COM_ALTER_FUNCTION', 'COM_CREATE_VIEW', 'COM_DROP_EVENT', 'COM_DROP_VIEW');
-# Time: 2022-12-19T18:45:56.097521Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000433  Lock_time: 0.000099 Rows_sent: 3  Rows_examined: 3
-SET timestamp=1671475556;
-SELECT VARIABLE_NAME, VARIABLE_VALUE FROM INFORMATION_SCHEMA.GLOBAL_STATUS WHERE VARIABLE_NAME IN ( 'ABORTED_CONNECTS', 'QUERIES', 'THREADS_CONNECTED');
-# Time: 2022-12-19T18:45:56.111651Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000233  Lock_time: 0.000117 Rows_sent: 1  Rows_examined: 1
-SET timestamp=1671475556;
-SELECT count(*) from information_schema.TABLES WHERE TABLE_SCHEMA = 'information_schema' AND TABLE_NAME = 'RDS_METRICS_META';
-# Time: 2022-12-19T18:45:56.134612Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000387  Lock_time: 0.000078 Rows_sent: 44  Rows_examined: 132
-SET timestamp=1671475556;
-select name, count_since_reset, visibility from information_schema.rds_metrics_counter inner join information_schema.rds_metrics_meta on rds_metrics_meta.id = rds_metrics_counter.metric_id;
-# Time: 2022-12-19T18:45:56.143393Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000827  Lock_time: 0.000061 Rows_sent: 70  Rows_examined: 158
-SET timestamp=1671475556;
-select name, value, visibility from information_schema.rds_metrics_gauge inner join information_schema.rds_metrics_meta on rds_metrics_meta.id = rds_metrics_gauge.metric_id;
-# Time: 2022-12-19T18:45:56.199797Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000481  Lock_time: 0.000100 Rows_sent: 3  Rows_examined: 235
-SET timestamp=1671475556;
-SELECT NAME, COUNT FROM INFORMATION_SCHEMA.INNODB_METRICS WHERE NAME IN ('LOCK_DEADLOCKS', 'LOCK_ROW_LOCK_CURRENT_WAITS', 'TRX_ACTIVE_TRANSACTIONS');
-# Time: 2022-12-19T18:45:56.212552Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000470  Lock_time: 0.000095 Rows_sent: 1  Rows_examined: 2
-SET timestamp=1671475556;
-SELECT MIN(REPLICA_LAG_IN_MILLISECONDS), MAX(REPLICA_LAG_IN_MILLISECONDS) FROM INFORMATION_SCHEMA.REPLICA_HOST_STATUS WHERE SERVER_ID != 'beta-master';
-# Time: 2022-12-19T18:45:57.606287Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000460  Lock_time: 0.000098 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475557;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:58.013014Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000523  Lock_time: 0.000088 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475558;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:45:59.595722Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000397  Lock_time: 0.000073 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475559;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:46:00.018063Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000291  Lock_time: 0.000173 Rows_sent: 1  Rows_examined: 1
-SET timestamp=1671475560;
-SELECT count(*) from mysql.rds_history WHERE action = 'disable set master' ORDER BY action_timestamp LIMIT 1;
-# Time: 2022-12-19T18:46:00.018718Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000569  Lock_time: 0.000072 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475560;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:46:00.018922Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39120
-# Query_time: 0.000134  Lock_time: 0.000065 Rows_sent: 1  Rows_examined: 1
-SET timestamp=1671475560;
-SELECT count(*) from mysql.rds_replication_status WHERE master_host IS NOT NULL and master_port IS NOT NULL ORDER BY action_timestamp LIMIT 1;
-# Time: 2022-12-19T18:46:00.044377Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000396  Lock_time: 0.000070 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475560;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:46:01.622675Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000383  Lock_time: 0.000076 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475561;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:46:02.029227Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000527  Lock_time: 0.000082 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475562;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:46:02.576509Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000588  Lock_time: 0.000096 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475562;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:46:03.595352Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000403  Lock_time: 0.000088 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475563;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:46:04.018126Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000523  Lock_time: 0.000091 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475564;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:46:05.623771Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000369  Lock_time: 0.000075 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475565;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:46:06.046401Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000516  Lock_time: 0.000102 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475566;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:46:07.611546Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000444  Lock_time: 0.000093 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475567;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:46:08.018565Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000458  Lock_time: 0.000075 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475568;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:46:09.612099Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000437  Lock_time: 0.000094 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475569;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:46:10.019005Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000508  Lock_time: 0.000075 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475570;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:46:11.607733Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000412  Lock_time: 0.000090 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475571;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:46:12.029432Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000498  Lock_time: 0.000073 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475572;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:46:13.620582Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000410  Lock_time: 0.000077 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475573;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
-# Time: 2022-12-19T18:46:14.026686Z
-# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
-# Query_time: 0.000456  Lock_time: 0.000075 Rows_sent: 2  Rows_examined: 2
-SET timestamp=1671475574;
-SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;
