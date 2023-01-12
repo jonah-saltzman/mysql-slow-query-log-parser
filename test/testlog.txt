@@ -1,0 +1,5 @@
+# Time: 2022-12-19T18:43:40.051328Z
+# User@Host: rdsadmin[rdsadmin] @ localhost []  Id: 39117
+# Query_time: 0.000468  Lock_time: 0.000084 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1671475420;
+SELECT last_update_timestamp FROM information_schema.replica_host_status;

@@ -1,154 +1,91 @@
-import {
-    LogFileLineType,
-    NextLineTypeConstructor,
-    NextLineType,
-} from './types'
+import { AST, Parser } from 'node-sql-parser'
 
-type LineParseErr = {
-    expectedType: LogFileLineType
-    badString: string
-    error: string
+type LogFileClient = {
+    user: string,
+    host: string,
+    id: number
 }
 
-class BaseLine {
-    public rawString: string
-    protected tokens: string[]
+type LogFileData = {
+    queryTime: number,
+    lockTime: number,
+    rowsSent: number
+    rowsExamined: number
+}
 
-    constructor(inputLine: string) {
-        this.rawString = inputLine
-        this.tokens = this.rawString.split(/(\s+)/)
+export type LogFileEntry = {
+    time: Date,
+    client: LogFileClient,
+    data: LogFileData,
+    setTimestamp: number,
+    sqlStatementRaw: string,
+    sqlStatementAst: AST | AST[],
+    tablesVisited: string[],
+    columnsVisited: string[]
+}
+
+export class LogFileParser {
+
+    public entries: LogFileEntry[] = []
+    public get entriesJSON () { return JSON.stringify(this.entries) }
+    public constructor(options?: {verbose: boolean}) {
+        if (options?.verbose)
+            this.verbose = true
     }
-}
 
-export class TimeLine extends BaseLine {
-    public lineType: LogFileLineType = LogFileLineType.TIME
-    public timestamp: Date
-    constructor(inputLine: string) {
-        super(inputLine)
-        try {
-            if (this.tokens.length !== 3 || this.tokens[0] !== '#') {
-                throw 'Malformed line'
-            }
-            this.timestamp = new Date(this.tokens[2])
-        } catch (err) {
-            throw {
-                expectedType: LogFileLineType.TIME,
-                badString: this.rawString,
-                error: typeof err === 'string' ? err : 'Unparseable timestamp'
-            }
+    public parseLine(line: string): void {
+        this.lines++
+        // console.log(line)
+        const tokens = line.split(/ +/g)
+        if (line === '' || line === '\n' || tokens.length < 2)
+            return
+        switch (tokens[1]) {
+            case 'Time:':
+                this.currentEntry.time = new Date(tokens[2])
+                break
+            case 'User@Host:':
+                this.currentEntry.client = {
+                    user: tokens[2],
+                    host: tokens[4],
+                    id: parseInt(tokens[7])
+                }
+                break
+            case 'Query_time:':
+                this.currentEntry.data = {
+                    queryTime: parseFloat(tokens[2]),
+                    lockTime: parseFloat(tokens[4]),
+                    rowsSent: parseInt(tokens[6]),
+                    rowsExamined: parseInt(tokens[8])
+                }
+                break
+            default:
+                if (tokens[0] === 'SET')
+                    this.currentEntry.setTimestamp = parseInt(tokens[1].split('=')[1])
+                else {
+                    try {
+                        this.currentEntry.sqlStatementRaw = line
+                        const { tableList, columnList, ast } = this.sqlParser.parse(line)
+                        this.currentEntry.columnsVisited = columnList
+                        this.currentEntry.sqlStatementAst = ast
+                        this.currentEntry.tablesVisited = tableList
+                        this.entries.push(this.currentEntry as LogFileEntry)
+                    } catch(err) {
+                        if (this.verbose) {
+                            const e = err as Error
+                            console.log('Error parsing SQL:')
+                            console.log("\t" + e.message)
+                            console.log(`on line ${this.lines}:`)
+                            console.log("\t" + line)
+                        }
+                    } finally {
+                        this.currentEntry = {}
+                    }
+                }
         }
     }
-}
 
-export class ConnectionLine extends BaseLine {
-    public lineType: LogFileLineType = LogFileLineType.CONNECTION
-    public user: string
-    public host: string
-    public connectionId: number
-    constructor(inputLine: string) {
-        super(inputLine)
-        try {
-            if (this.tokens[0] !== '#') {
-                throw 'Malformed line'
-            }
-            this.user = this.tokens[this.tokens.indexOf('User@Host:') + 1]
-            this.host = this.tokens[this.tokens.indexOf('@') + 1]
-            this.connectionId = parseInt(this.tokens[this.tokens.indexOf('Id:') + 1])
-        } catch (err) {
-            throw {
-                expectedType: LogFileLineType.TIME,
-                badString: this.rawString,
-                error: typeof err === 'string' ? err : 'Unparseable timestamp'
-            }
-        }
-    }
-}
-
-export class DataLine extends BaseLine {
-    public lineType: LogFileLineType = LogFileLineType.TIME
-    public queryTime: number
-    public lockTime: number
-    public rowsExamined: number
-    public rowsSent: number
-    constructor(inputLine: string) {
-        super(inputLine)
-        try {
-            if (this.tokens.length !== 9 || this.tokens[0] !== '#') {
-                throw 'Malformed line'
-            }
-            this.queryTime = parseFloat(this.tokens[this.tokens.indexOf('Query_time:') + 1])
-            this.lockTime = parseFloat(this.tokens[this.tokens.indexOf('Lock_time:') + 1])
-            this.rowsExamined = parseInt(this.tokens[this.tokens.indexOf('Rows_examined:') + 1])
-            this.rowsSent = parseInt(this.tokens[this.tokens.indexOf('Rows_sent:') + 1])
-        } catch (err) {
-            throw {
-                expectedType: LogFileLineType.TIME,
-                badString: this.rawString,
-                error: typeof err === 'string' ? err : 'Unparseable timestamp'
-            }
-        }
-    }
-}
-
-export class SetTimeLine extends BaseLine {
-    public lineType: LogFileLineType = LogFileLineType.TIME
-    public timestamp: number
-    constructor(inputLine: string) {
-        super(inputLine)
-        try {
-            if (this.tokens.length !== 2 || this.tokens[0] !== 'SET') {
-                throw 'Malformed line'
-            }
-            this.timestamp = parseInt(this.tokens[1])
-        } catch (err) {
-            throw {
-                expectedType: LogFileLineType.TIME,
-                badString: this.rawString,
-                error: typeof err === 'string' ? err : 'Unparseable timestamp'
-            }
-        }
-    }
-}
-
-export class QueryLine extends BaseLine {
-    public lineType: LogFileLineType = LogFileLineType.TIME
-    public timestamp: Date
-    constructor(inputLine: string) {
-        super(inputLine)
-        try {
-            if (this.tokens.length !== 3 || this.tokens[0] !== '#') {
-                throw 'Malformed line'
-            }
-            this.timestamp = new Date(this.tokens[2])
-        } catch (err) {
-            throw {
-                expectedType: LogFileLineType.TIME,
-                badString: this.rawString,
-                error: typeof err === 'string' ? err : 'Unparseable timestamp'
-            }
-        }
-    }
-}
-
-class LogFileEntry {
-
-}
-
-class LogFileParser {
-    private prevLineType = LogFileLineType.UNK
-
-    private TIME: TimeLine | undefined
-    private CONNECTION: ConnectionLine | undefined
-    private DATA: DataLine | undefined
-    private SETTIME: SetTimeLine | undefined
-    private QUERY: QueryLine | undefined
-
-    parseLine(lineString: string) {
-        try {
-            this[NextLineType[this.prevLineType]] = new NextLineTypeConstructor[this.prevLineType](lineString)
-        } catch(err) {
-            this.prevLineType = LogFileLineType.UNK
-            throw err
-        }
-    }
+    private currentEntry: Partial<LogFileEntry> = {}
+    private sqlParser: Parser = new Parser()
+    private verbose = false
+    private lines = 0
 }

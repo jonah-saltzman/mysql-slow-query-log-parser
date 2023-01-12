@@ -998,3 +998,4 @@ SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM in
 # Query_time: 0.000456  Lock_time: 0.000075 Rows_sent: 2  Rows_examined: 2
 SET timestamp=1671475574;
 SELECT durable_lsn, current_read_point, server_id, last_update_timestamp FROM information_schema.replica_host_status;
+
