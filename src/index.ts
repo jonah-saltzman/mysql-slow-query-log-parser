@@ -1,7 +1,9 @@
 import * as fs from 'fs'
-import { LogFileParser, LogFileEntry } from './classes'
+import { LogFileParser } from './classes'
+import { LogFileEntry } from './types'
 
-export {LogFileParser, LogFileEntry} from './classes'
+export {LogFileParser}
+export {LogFileEntry}
 
 export async function parseStream(readable: fs.ReadStream): Promise<LogFileEntry[]> {
     return new Promise((resolve, reject) => {

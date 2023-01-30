@@ -1,8 +1,8 @@
 import { parseStream } from "../src"
 import * as fs from 'fs'
 import * as path from 'path'
-import { LogFileEntry } from "../src/classes"
-import { expect } from "chai"
+import { LogFileEntry, LogFileParser } from "../src"
+import { assert, expect } from "chai"
 import { Parser } from 'node-sql-parser'
 
 describe('Parser', () => {
@@ -39,7 +39,8 @@ describe('Parser', () => {
             sqlStatementRaw: sql,
             sqlStatementAst: parsedSql.ast,
             columnsVisited: parsedSql.columnList,
-            tablesVisited: parsedSql.tableList
+            tablesVisited: parsedSql.tableList,
+            schema: null
         }
         expect(output[0]).to.deep.equal(expected)
     })
@@ -48,4 +49,22 @@ describe('Parser', () => {
         const output = await parseStream(fileStream)
         expect(output.length).to.equal(200)
     })
+
+    it('parses a large logfile', async () => {
+        const logFile = fs.readFileSync(path.join(__dirname, 'logfile.txt'), { encoding: 'utf8' })
+        const parser = new LogFileParser()
+        for (const line of logFile.split('\n')) {
+            parser.parseLine(line)
+        }
+        let count = 0
+        for (const entry of parser.entries) {
+            if (entry.client && entry.data && entry.time)
+                count++
+            else {
+                console.log(entry)
+                assert.fail(entry)
+            }
+        }
+        console.log({count})
+    }).timeout(10000)
 })
